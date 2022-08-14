@@ -8,7 +8,7 @@ body {
   background-image: url("../img/bg-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left;
+  background-position: bottom;
 }
 
 /* Mis trabajos */
@@ -37,3 +37,4 @@ body {
   }
 
 }
+
