@@ -1,3 +1,9 @@
+:root{
+  --color1: #A8283C ;
+  --color2: #3C1118 ;
+  --color3: white ;
+}
+
 body {
   font-family: "Raleway", sans-serif;
 }
@@ -25,6 +31,35 @@ body {
 #Contacto form label {
   font-weight: 700;
   color: #373a3c;
+}
+
+.btn-outline-info{
+  color: #A8283C !important;
+  border-color: #A8283C !important;
+}
+
+.btn-outline-info:hover{
+  color: var(--color3) !important;
+  background-color: var(--color2) !important;
+  border-color: var(--color1) !important;
+  box-shadow: 0px 0px 8px black;
+}
+
+.btn-info{
+  color: var(--color3) !important;
+  background-color: var(--color2) !important;
+  border-color: var(--color1) !important;
+}
+
+.btn-info:hover{
+  color: var(--color3) !important;
+  background-color: var(--color2) !important;
+  border-color: var(--color1) !important;
+  box-shadow: 0px 0px 8px black;
+}
+
+.bg-info{
+  background-color: var(--color2) !important;
 }
 
 @media (max-width: 768px) {
